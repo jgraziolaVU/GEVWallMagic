@@ -30,6 +30,10 @@ WHAT'S IN THIS FOLDER
   requirements.txt     Python package list (for manual installation)
   README.txt           This file
 
+  ⚠️  IMPORTANT: Keep all these files together in the same folder!
+      The launcher (run.bat) expects parallax_studio.py to be right
+      next to it. Moving files individually will break the app.
+
 
 SYSTEM REQUIREMENTS
 ═══════════════════════════════════════════════════════════════════════════════
@@ -83,6 +87,12 @@ MANUAL INSTALLATION (Advanced Users)
 
 TROUBLESHOOTING
 ═══════════════════════════════════════════════════════════════════════════════
+
+  "parallax_studio.py not found"
+  ──────────────────────────────
+  • Make sure parallax_studio.py is in the same folder as run.bat
+  • Don't move or rename any of the application files
+  • Re-download the complete application folder if files are missing
 
   "NVIDIA GPU not detected"
   ─────────────────────────
